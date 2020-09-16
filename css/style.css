@@ -1,0 +1,49 @@
+html{
+    box-sizing: border-box;         
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;              
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Gilroy", "Arial", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #070707
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+img {
+    max-width: 100%;                   
+}
+
+
+a{
+    text-decoration: none;            
+    color: inherit;
+}
+
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+p{
+    margin: 0;
+}
+
+button{
+    cursor: pointer;
+}

@@ -1,0 +1,101 @@
+@media (max-width: 768px){
+    .heading {
+        margin-right: 200px;
+    }
+
+    .programs-item:not(:last-child){
+        margin-right: 60px;
+    }
+
+    .home-img{
+        height: 350px;
+    }
+}
+
+@media (max-width: 500px){
+    .heading {
+        margin-right: 100px;
+        font-size: 38px;
+    }
+
+    .programs-item:not(:last-child){
+        margin-right: 60px;
+    }
+
+    .header-nav{
+        display: none;
+    }
+    
+    .header .container{
+        position: relative;
+    }
+
+    .home{
+        display: flex;
+    }
+
+    .burger{
+        display: block;
+        margin-left: auto;;
+    }
+
+    .home-block{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heading{
+        font-size: 47px;
+        line-height: 58px;
+        margin-bottom: 23px;
+    }
+
+    .descrp{
+        margin-top: 0;
+        margin-bottom: 37px;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: left;
+    }
+
+    .home-img{
+        height: 487px;
+        margin-bottom: 83px;
+        background-image: url('../img/main-mobile.png');
+    }
+
+    .programs{
+        margin-top: 70px;
+        flex-direction: column;
+    }
+
+    .programs-item:not(:last-child) {
+        margin-right: 0px;
+        margin-bottom: 70px;
+    }
+
+    .item-name{
+        max-width: 70px;
+    }
+
+    .stars{
+        margin-top: 30px;
+    }
+
+    .works-item{
+        margin-bottom: 70px;
+    }
+
+    .send{
+        padding: 13px 97px;
+        margin: 20px auto 60px;
+    }
+
+    .links-list{
+        justify-content: space-between;
+    }
+
+    .links-item:not(:last-child){
+        margin-right: 35px;
+    }
+}
